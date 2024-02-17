@@ -1,0 +1,101 @@
+.cart-page-container {
+  padding-bottom: 3rem;
+  min-height: 70vh;
+}
+.heading {
+  font-weight: normal;
+  text-align: center;
+  padding: 2rem;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.cart-container {
+  width: 65%;
+  background-color: white;
+}
+
+.empty-cart {
+  text-align: center;
+  padding: 1rem;
+}
+
+.empty-cart h2 {
+  padding: 1rem;
+}
+
+.empty-cart a {
+  color: black;
+}
+
+.cart-list {
+  padding: 1rem;
+  border-bottom: solid 1px rgb(242, 242, 242);
+}
+
+.invoice-container {
+  width: 35%;
+  background-color: white;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+.invoice-container h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.invoice-subtotal-container {
+  border-bottom: solid 1px rgb(44, 44, 44);
+}
+
+.invoice-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.invoice-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.invoice-total p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.invoice-container button {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cart-container {
+    width: 100%;
+  }
+
+  .invoice-container {
+    width: 100%;
+  }
+
+  .invoice-container h2 {
+    font-size: 1.2rem;
+  }
+
+  .invoice-container p {
+    font-size: 0.875rem;
+  }
+}

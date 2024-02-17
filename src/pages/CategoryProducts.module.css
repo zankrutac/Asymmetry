@@ -1,0 +1,38 @@
+.page-container {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.page-title {
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 2rem;
+  text-transform: capitalize;
+}
+
+.filter {
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+
+.product-list {
+  flex-basis: 225px;
+}
+
+@media screen and (max-width: 769px) {
+  .product-list-container {
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .product-list {
+    flex-basis: 40%;
+  }
+}

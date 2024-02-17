@@ -1,0 +1,118 @@
+.nav-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--color-light-shade);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 1440px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 4rem;
+  /* box-shadow: 1px 1px 5px rgba(var(--color-light-accent), 1); */
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+}
+
+.menu-button {
+  display: none;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+  font-size: 0.75rem;
+}
+
+.nav-header a {
+  color: var(--color-dark-shade);
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+.nav-menu a.active {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  font-weight: bold;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 0.05rem;
+}
+
+.cart-items {
+  background-color: var(--color-light-accent);
+  font-size: 0.875rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 16px;
+  position: relative;
+  top: -8px;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .nav-header {
+    justify-content: center;
+  }
+  .menu-button {
+    position: absolute;
+    left: 1rem;
+    display: block;
+    z-index: 100;
+    border: none;
+    background: none;
+  }
+  .nav-menu {
+    background-color: var(--color-light-accent);
+    padding-top: 5rem;
+    padding-left: 2rem;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.75rem;
+    font-size: 0.75rem;
+    transition: 0.3s ease-in-out;
+    z-index: 10;
+  }
+
+  .open {
+    left: 0;
+  }
+
+  .cart {
+    position: absolute;
+    right: 1rem;
+  }
+}

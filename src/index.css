@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Helvetica, sans-serif;
+
+  --color-light-shade: #fdfdfd;
+  --color-light-accent-1: #f7f7f7;
+  --color-light-accent: #e2e2e2;
+  --color-primary: #0c0c0d;
+  --color-dark-accent: #3d3645;
+  --color-dark-shade: #0c0c0d;
+
+  --color-success: #3f8245;
+  --color-warning: #bc720d;
+  --color-error: #f44336;
+}
+
+body {
+  color: var(--color-dark-shade);
+}
+
+main {
+  padding-top: 4rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  /* vertical-align: baseline; */
+}
+
+button {
+  cursor: pointer;
+}
+
+button.primary {
+  color: var(--color-light-shade);
+  background-color: var(--color-primary);
+  border: none;
+  padding: 1em 2em;
+}
+
+button:hover.primary {
+  color: var(--color-dark-shade);
+  background-color: var(--color-light-shade);
+  border: solid 1.25px var(--color-dark-shade);
+}

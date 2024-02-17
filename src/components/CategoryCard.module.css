@@ -1,0 +1,25 @@
+.category-card-container {
+  border: solid 0.75px var(--color-light-accent);
+}
+
+.category-img-container {
+  width: 100%;
+}
+
+.category-img-container img {
+  width: 100%;
+}
+
+.category-title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  padding: 0.75rem 0;
+  color: var(--color-dark-shade);
+}
+
+.category-card-container a {
+  color: var(--color-dark-shade);
+  text-decoration: none;
+}
