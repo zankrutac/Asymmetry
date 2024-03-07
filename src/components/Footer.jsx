@@ -15,56 +15,56 @@ export default function Footer() {
           <ul className={classes["footer-sublinks"]}>
             <li className={classes["footer-sublink-heading"]}>About us</li>
 
-            <Link to="">
-              <li>Our Story</li>
-            </Link>
-            <Link to="">
-              <li>Careers</li>
-            </Link>
-            <Link to="">
-              <li>Blog</li>
-            </Link>
-            <Link to="">
-              <li>Investors</li>
-            </Link>
-            <Link to="">
-              <li>Affiliate program</li>
-            </Link>
+            <li>
+              <Link to="">Our Story</Link>
+            </li>
+            <li>
+              <Link to="">Careers</Link>
+            </li>
+            <li>
+              <Link to="">Blog</Link>
+            </li>
+            <li>
+              <Link to="">Investors</Link>
+            </li>
+            <li>
+              <Link to="">Affiliate program</Link>
+            </li>
           </ul>
         </li>
         <li>
           <ul className={classes["footer-sublinks"]}>
             <li className={classes["footer-sublink-heading"]}>Customer care</li>
 
-            <Link to="">
-              <li>Help Center</li>
-            </Link>
-            <Link to="">
-              <li>Return/Exchange Policy</li>
-            </Link>
-            <Link to="">
-              <li>Shipping Policy</li>
-            </Link>
-            <Link to="">
-              <li>FAQs</li>
-            </Link>
-            <Link to="">
-              <li>Size charts</li>
-            </Link>
+            <li>
+              <Link to="">Help Center</Link>
+            </li>
+            <li>
+              <Link to="">Return/Exchange Policy</Link>
+            </li>
+            <li>
+              <Link to="">Shipping Policy</Link>
+            </li>
+            <li>
+              <Link to="">FAQs</Link>
+            </li>
+            <li>
+              <Link to="">Size charts</Link>
+            </li>
           </ul>
         </li>
         <li>
           <ul className={classes["footer-sublinks"]}>
             <li className={classes["footer-sublink-heading"]}>Contact us</li>
-            <Link>
-              <li>Chat with us</li>
-            </Link>
-            <Link>
-              <li>Email us</li>
-            </Link>
-            <Link>
-              <li>1-222-333-4444</li>
-            </Link>
+            <li>
+              <Link>Chat with us</Link>
+            </li>
+            <li>
+              <Link>Email us</Link>
+            </li>
+            <li>
+              <Link>1-222-333-4444</Link>
+            </li>
           </ul>
         </li>
       </ul>
